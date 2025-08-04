@@ -1,0 +1,52 @@
+# Yangtze River RNA Virus Pipeline Configuration
+
+# Input files and directories
+samples_file: "config/sample_list.txt"
+raw_data_dir: "data/0_rawdata"
+
+# Output directories
+results_dir: "results"
+logs_dir: "logs"
+
+# Tool-specific parameters
+fastp:
+  threads: 24
+  memory: 128  # GB
+  runtime: 360  # minutes
+  quality_threshold: 20
+  length_required: 20
+
+ribodetector:
+  threads: 16
+  memory: 64   # GB
+  runtime: 7200  # minutes (120 hours)
+  min_length: 50
+  chunk_size: 2500
+
+spades:
+  threads: 16
+  memory: 256  # GB
+  runtime: 7200  # minutes (120 hours)
+  kmers: "21,33,55,77,101,121"
+  meta_mode: true
+
+esviritu:
+  threads: 8
+  memory: 32   # GB
+  runtime: 7200  # minutes (120 hours)
+  mode: "paired"
+
+virbot:
+  threads: 16
+  memory: 32   # GB
+  runtime: 7200  # minutes (120 hours)
+
+# Cluster configuration (for SLURM execution)
+cluster:
+  account: "research-ceg-wm"
+  partition: "compute,memory"
+  
+# HPC-specific settings
+hpc:
+  scratch_dir: "/scratch/xddeng/yangtze/RNA"
+  conda_path: "/home/xddeng/miniconda3/bin/activate"
