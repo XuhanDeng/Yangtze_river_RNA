@@ -53,7 +53,7 @@ data/0_rawdata/
 
 #### Local execution:
 ```bash
-snakemake --snakefile src/Snakefile --configfile config/config.yaml --cores 8 --use-conda
+snakemake --configfile config/config.yaml --cores 8 --use-conda
 ```
 
 #### SLURM cluster execution:
@@ -63,7 +63,7 @@ snakemake --snakefile src/Snakefile --configfile config/config.yaml --cores 8 --
 
 #### Dry run (recommended first):
 ```bash
-snakemake --snakefile src/Snakefile --configfile config/config.yaml --dry-run
+snakemake --configfile config/config.yaml --dry-run
 ```
 
 ## Output Structure
@@ -132,12 +132,12 @@ SLURM-specific settings for each rule:
 
 ### Check workflow status:
 ```bash
-snakemake --snakefile src/Snakemake --summary
+snakemake --summary
 ```
 
 ### Generate workflow report:
 ```bash
-snakemake --snakefile src/Snakemake --report report.html
+snakemake --report report.html
 ```
 
 ### View logs:

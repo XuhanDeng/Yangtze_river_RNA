@@ -4,9 +4,9 @@ Run Yangtze River RNA Virus Pipeline with Snakemake
 """
 
 # Configuration
-SNAKEFILE="src/Snakefile"
+SNAKEFILE="Snakefile"
 CONFIG="config/config.yaml"
-CLUSTER_CONFIG="src/cluster_config.yaml"
+CLUSTER_CONFIG="cluster_config.yaml"
 CORES=50  # Maximum number of cores to use
 JOBS=50   # Maximum number of jobs to submit
 
