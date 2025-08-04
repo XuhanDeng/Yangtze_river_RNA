@@ -3,7 +3,7 @@
 > **Documentation Version**: 1.0  
 > **Last Updated**: 2025-08-04  
 > **Project**: Yangtze_river_RNA  
-> **Description**: RNA analysis project for Yangtze river data  
+> **Description**: RNA virus bioinformatics pipeline for processing RNA NGS sequencing data using Snakemake  
 > **Features**: GitHub auto-backup, Task agents, technical debt prevention
 
 This file provides essential guidance to Claude Code (claude.ai/code) when working with code in this repository.
@@ -73,55 +73,24 @@ This file provides essential guidance to Claude Code (claude.ai/code) when worki
 
 > **⚠️ DO NOT PROCEED until all checkboxes are explicitly verified**
 
-## 🐙 GITHUB SETUP & AUTO-BACKUP
-
-### 📋 **GITHUB BACKUP WORKFLOW** (MANDATORY)
-> **⚠️ CLAUDE CODE MUST FOLLOW THIS PATTERN:**
-
-```bash
-# After every commit, always run:
-git push origin main
-
-# This ensures:
-# ✅ Remote backup of all changes
-# ✅ Collaboration readiness  
-# ✅ Version history preservation
-# ✅ Disaster recovery protection
-```
-
-### 🎯 **CLAUDE CODE GITHUB COMMANDS**
-Essential GitHub operations for Claude Code:
-
-```bash
-# Check GitHub connection status
-gh auth status && git remote -v
-
-# Push changes (after every commit)
-git push origin main
-
-# Check repository status
-gh repo view
-
-# Clone repository (for new setup)
-gh repo clone username/repo-name
-```
-
 ## 🏗️ PROJECT OVERVIEW
 
-RNA analysis project for Yangtze river data using Standard project structure.
+RNA virus bioinformatics pipeline for processing RNA NGS sequencing data using Snakemake workflow management system.
 
 ### 🎯 **DEVELOPMENT STATUS**
-- **Setup**: ✅ Completed
-- **Core Features**: 🔄 In Progress
-- **Testing**: ⏳ Pending
-- **Documentation**: ⏳ Pending
+- **Setup**: ✅ Complete
+- **Core Features**: 🚧 In Development
+- **Testing**: 🚧 In Development
+- **Documentation**: 🚧 In Development
 
-## 📋 NEED HELP? START HERE
+## 📋 BIOINFORMATICS PIPELINE WORKFLOW
 
-- Check existing code in `src/main/python/` before creating new files
-- Use `output/` directory for generated files
-- Follow RNA analysis best practices
-- Maintain single source of truth for all functionality
+This project processes RNA virus sequencing data through the following stages:
+1. **Quality Control** - FastQC, MultiQC analysis
+2. **Preprocessing** - Trimming, filtering
+3. **Assembly** - De novo assembly of viral genomes
+4. **Annotation** - Gene prediction and functional annotation
+5. **Analysis** - Phylogenetic analysis, variant calling
 
 ## 🎯 RULE COMPLIANCE CHECK
 
@@ -135,17 +104,17 @@ Before starting ANY task, verify:
 ## 🚀 COMMON COMMANDS
 
 ```bash
-# Navigate to source code
-cd src/main/python/
+# Run Snakemake pipeline
+snakemake --cores all
 
-# Run RNA analysis scripts
-python src/main/python/core/analysis.py
+# Dry run to check workflow
+snakemake -n
 
-# Run tests
-python -m pytest src/test/
+# Run specific rule
+snakemake rule_name
 
-# View project structure
-tree src/
+# Generate workflow report
+snakemake --report report.html
 ```
 
 ## 🚨 TECHNICAL DEBT PREVENTION
@@ -153,17 +122,17 @@ tree src/
 ### ❌ WRONG APPROACH (Creates Technical Debt):
 ```bash
 # Creating new file without searching first
-Write(file_path="new_analysis.py", content="...")
+Write(file_path="new_feature.py", content="...")
 ```
 
 ### ✅ CORRECT APPROACH (Prevents Technical Debt):
 ```bash
 # 1. SEARCH FIRST
-Grep(pattern="analysis.*rna", glob="*.py")
+Grep(pattern="feature.*implementation", glob="*.py")
 # 2. READ EXISTING FILES  
-Read(file_path="src/main/python/core/existing_analysis.py")
+Read(file_path="existing_feature.py")
 # 3. EXTEND EXISTING FUNCTIONALITY
-Edit(file_path="src/main/python/core/existing_analysis.py", old_string="...", new_string="...")
+Edit(file_path="existing_feature.py", old_string="...", new_string="...")
 ```
 
 ## 🧹 DEBT PREVENTION WORKFLOW

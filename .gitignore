@@ -45,18 +45,19 @@ logs/
 *.xlsx
 output/
 
-# RNA analysis specific
+# Snakemake specific
+.snakemake/
+*.snakemake.lock
+
+# Bioinformatics files
 *.fasta
 *.fastq
-*.sam
 *.bam
+*.sam
 *.vcf
+*.bed
 *.gff
 *.gtf
-
-# Snakemake
-.snakemake/
-*.log
 
 # Temporary files
 tmp/
