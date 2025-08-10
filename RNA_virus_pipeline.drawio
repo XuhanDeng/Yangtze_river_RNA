@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.0.9">
   <diagram name="Page-1" id="d5VSCIzbNMDESyZ41HRd">
-    <mxGraphModel dx="967" dy="1620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="1451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,6 +48,21 @@
         </mxCell>
         <mxCell id="mpjd_PZbwG2OVMUTGQUJ-35" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="-120" width="50" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mpjd_PZbwG2OVMUTGQUJ-36" value="Bowtie2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mpjd_PZbwG2OVMUTGQUJ-37" value="&lt;div&gt;end to end&lt;/div&gt;--very-sensitive&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mpjd_PZbwG2OVMUTGQUJ-38" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-290" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mpjd_PZbwG2OVMUTGQUJ-39" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-210" width="50" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mpjd_PZbwG2OVMUTGQUJ-40" value="Reduntant&lt;div&gt;NCBI_virus_ref&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-230" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
