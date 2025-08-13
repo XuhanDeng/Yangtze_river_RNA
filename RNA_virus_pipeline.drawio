@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.1.0">
   <diagram name="Page-1" id="d5VSCIzbNMDESyZ41HRd">
-    <mxGraphModel dx="1275" dy="1785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="713" dy="1527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,22 +85,7 @@
         <mxCell id="M1uCpGNBb0KluPalSdDA-7" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="100" width="50" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="M1uCpGNBb0KluPalSdDA-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M1uCpGNBb0KluPalSdDA-8" target="M1uCpGNBb0KluPalSdDA-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="M1uCpGNBb0KluPalSdDA-8" value="BlastX with diamond" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="80" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="M1uCpGNBb0KluPalSdDA-10" value="kmer:21,33,&lt;div&gt;55,77,101,121&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="585" y="30" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="M1uCpGNBb0KluPalSdDA-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="M1uCpGNBb0KluPalSdDA-8" target="M1uCpGNBb0KluPalSdDA-10" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="160" as="sourcePoint" />
-            <mxPoint x="730" y="110" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="M1uCpGNBb0KluPalSdDA-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+        <mxCell id="M1uCpGNBb0KluPalSdDA-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="M1uCpGNBb0KluPalSdDA-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="670" y="100" as="sourcePoint" />
             <mxPoint x="700" y="100" as="targetPoint" />
@@ -246,17 +231,23 @@
         </mxCell>
         <UserObject label="https://github.com/alibaba/LucaProt/blob/master/ClstrSearch/cluster/clustering.sh" link="https://github.com/alibaba/LucaProt/blob/master/ClstrSearch/cluster/clustering.sh" id="1CzcoiM6m79WCnnG3GS5-4">
           <mxCell style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-            <mxGeometry x="800" y="370" width="460" height="40" as="geometry" />
+            <mxGeometry x="800" y="770" width="460" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="1CzcoiM6m79WCnnG3GS5-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.394;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0CakbcepppxWFJiGsruR-3" target="1CzcoiM6m79WCnnG3GS5-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980" y="320" as="sourcePoint" />
-            <mxPoint x="980" y="340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="HUlDQ5VoFlM1ivxALCAT-1" value="Tips:&lt;div&gt;use RPM instead of TPM/RPKM for de novo assembly, because de novo lead to partial assembly, use TPM is not good&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 8.5px; line-height: normal; text-align: start;&quot; class=&quot;p1&quot;&gt;The marker virus species were defined as those present only in one ecosystem subtype with&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; font-size: 8.5px; line-height: normal; text-align: start;&quot; class=&quot;p1&quot;&gt;RPMR1 and coverage (percentage of horizontal covered bases with depthR1) set at R20%.&lt;/p&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="560" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HUlDQ5VoFlM1ivxALCAT-2" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ORFinder +&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;CD-Hit&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HUlDQ5VoFlM1ivxALCAT-4" value="BlastX with diamond" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HUlDQ5VoFlM1ivxALCAT-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="735" y="260" as="sourcePoint" />
+            <mxPoint x="735" y="250" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
