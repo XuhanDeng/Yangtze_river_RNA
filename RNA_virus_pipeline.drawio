@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.1.0">
   <diagram name="Page-1" id="d5VSCIzbNMDESyZ41HRd">
-    <mxGraphModel dx="1086" dy="1649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1601" dy="1908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -427,8 +427,8 @@
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="569.44" y="520" as="sourcePoint" />
-            <mxPoint x="569.73" y="550" as="targetPoint" />
+            <mxPoint x="1529.44" y="690" as="sourcePoint" />
+            <mxPoint x="1529.73" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -444,10 +444,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-23" value="Diamond BLASTp against NR&lt;div&gt;&amp;nbsp;-e 1E-5 -k 1&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-f 6 qseqid sseqid qlen length pident evalue&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="472.5" y="630" width="200" height="50" as="geometry" />
+          <mxGeometry x="1432.5" y="800" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-25" value="Taxonomy and host prediction assignment:&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(42, 42, 42); font-family: Merriweather, serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;taxonkit tool&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="472.5" y="710" width="200" height="50" as="geometry" />
+          <mxGeometry x="1432.5" y="880" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -457,102 +457,102 @@
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="520" as="sourcePoint" />
-            <mxPoint x="910" y="520" as="targetPoint" />
+            <mxPoint x="1530" y="690" as="sourcePoint" />
+            <mxPoint x="1870" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-28" value="Taxonomy assignment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="550" width="200" height="50" as="geometry" />
+          <mxGeometry x="1430" y="720" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="569.44" y="600" as="sourcePoint" />
-            <mxPoint x="569.73" y="630" as="targetPoint" />
+            <mxPoint x="1529.44" y="770" as="sourcePoint" />
+            <mxPoint x="1529.73" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="569.44" y="680" as="sourcePoint" />
-            <mxPoint x="569.73" y="710" as="targetPoint" />
+            <mxPoint x="1529.44" y="850" as="sourcePoint" />
+            <mxPoint x="1529.73" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="909.52" y="520" as="sourcePoint" />
-            <mxPoint x="909.81" y="550" as="targetPoint" />
+            <mxPoint x="1869.52" y="690" as="sourcePoint" />
+            <mxPoint x="1869.81" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-33" value="Supergroup identification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="805" y="550" width="200" height="50" as="geometry" />
+          <mxGeometry x="1765" y="720" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="909.52" y="600" as="sourcePoint" />
-            <mxPoint x="909.81" y="630" as="targetPoint" />
+            <mxPoint x="1869.52" y="770" as="sourcePoint" />
+            <mxPoint x="1869.81" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-36" value="Diamond blastp against latest&amp;nbsp;&lt;div&gt;virus supergroup&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;--very-sensitive --evalue 1e-5&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="805" y="630" width="200" height="50" as="geometry" />
+          <mxGeometry x="1765" y="800" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="660" as="sourcePoint" />
-            <mxPoint x="1005" y="660" as="targetPoint" />
+            <mxPoint x="2000" y="830" as="sourcePoint" />
+            <mxPoint x="1965" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-38" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="840" y="480" as="sourcePoint" />
-            <mxPoint x="1040" y="480.26" as="targetPoint" />
+            <mxPoint x="1800" y="650" as="sourcePoint" />
+            <mxPoint x="2000" y="650.26" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-39" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040.2173913043478" y="480" as="sourcePoint" />
-            <mxPoint x="1040" y="740" as="targetPoint" />
+            <mxPoint x="2000.2173913043478" y="650" as="sourcePoint" />
+            <mxPoint x="2000" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="909.52" y="680" as="sourcePoint" />
-            <mxPoint x="909.81" y="710" as="targetPoint" />
+            <mxPoint x="1869.52" y="850" as="sourcePoint" />
+            <mxPoint x="1869.81" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-41" value="HMM-Based Assignment&lt;div&gt;Bit score &amp;gt;=40&lt;/div&gt;&lt;div&gt;Aligned fraction &amp;gt;=0.4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="805" y="710" width="200" height="50" as="geometry" />
+          <mxGeometry x="1765" y="880" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="740" as="sourcePoint" />
-            <mxPoint x="1005" y="740" as="targetPoint" />
+            <mxPoint x="2000" y="910" as="sourcePoint" />
+            <mxPoint x="1965" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-43" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570" y="780" as="sourcePoint" />
-            <mxPoint x="910" y="780" as="targetPoint" />
+            <mxPoint x="1530" y="950" as="sourcePoint" />
+            <mxPoint x="1870" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-44" value="" style="endArrow=none;html=1;rounded=0;entryX=0.523;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AKONmHxtGDNVBENvVW5_-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="910" y="780" as="sourcePoint" />
-            <mxPoint x="1060" y="800" as="targetPoint" />
+            <mxPoint x="1870" y="950" as="sourcePoint" />
+            <mxPoint x="2020" y="970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-45" value="" style="endArrow=none;html=1;rounded=0;entryX=0.523;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="569.59" y="779" as="sourcePoint" />
-            <mxPoint x="569.59" y="760" as="targetPoint" />
+            <mxPoint x="1529.5900000000001" y="949" as="sourcePoint" />
+            <mxPoint x="1529.5900000000001" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="739.8" y="780" as="sourcePoint" />
-            <mxPoint x="740.0899999999999" y="810" as="targetPoint" />
+            <mxPoint x="1699.8" y="950" as="sourcePoint" />
+            <mxPoint x="1700.09" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-47" value="&lt;ol&gt;&lt;li&gt;If both agree → assign confidently.&lt;/li&gt;&lt;li&gt;&amp;nbsp;If only one passes threshold → mark putative.&amp;nbsp;&lt;/li&gt;&lt;li&gt;If conflicting → keep unassigned.&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="810" width="440" height="50" as="geometry" />
+          <mxGeometry x="1480" y="980" width="440" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
