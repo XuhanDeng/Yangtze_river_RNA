@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.1.0">
   <diagram name="Page-1" id="d5VSCIzbNMDESyZ41HRd">
-    <mxGraphModel dx="1086" dy="1649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="845" dy="1527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -427,8 +427,8 @@
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="739.75" y="500" as="sourcePoint" />
-            <mxPoint x="740.04" y="530" as="targetPoint" />
+            <mxPoint x="569.44" y="520" as="sourcePoint" />
+            <mxPoint x="569.73" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -444,7 +444,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-23" value="Diamond BLASTp against NR&lt;div&gt;&amp;nbsp;-e 1E-5 -k 1&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-f 6 qseqid sseqid qlen length pident evalue&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="530" width="200" height="50" as="geometry" />
+          <mxGeometry x="472.5" y="630" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AKONmHxtGDNVBENvVW5_-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -452,8 +452,35 @@
             <mxPoint x="900" y="555" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AKONmHxtGDNVBENvVW5_-25" value="Taxonomy assignment:&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(42, 42, 42); font-family: Merriweather, serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;taxonkit tool&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="530" width="200" height="50" as="geometry" />
+        <mxCell id="AKONmHxtGDNVBENvVW5_-25" value="Taxonomy and host prediction assignment:&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(42, 42, 42); font-family: Merriweather, serif; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;taxonkit tool&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="472.5" y="710" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKONmHxtGDNVBENvVW5_-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="520" as="sourcePoint" />
+            <mxPoint x="739.64" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AKONmHxtGDNVBENvVW5_-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="520" as="sourcePoint" />
+            <mxPoint x="910" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AKONmHxtGDNVBENvVW5_-28" value="Taxonomy assignment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="550" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKONmHxtGDNVBENvVW5_-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="569.44" y="600" as="sourcePoint" />
+            <mxPoint x="569.73" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AKONmHxtGDNVBENvVW5_-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="569.44" y="680" as="sourcePoint" />
+            <mxPoint x="569.73" y="710" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
