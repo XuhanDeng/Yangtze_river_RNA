@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.1.0">
   <diagram name="Page-1" id="d5VSCIzbNMDESyZ41HRd">
-    <mxGraphModel dx="828" dy="1596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="126" dy="1176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -575,7 +575,7 @@
             <mxPoint x="880" y="475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jtGZUxk2zRDB6_VaO77W-9" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(237, 237, 237));&quot;&gt;Diamond Blastx database&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
+        <mxCell id="jtGZUxk2zRDB6_VaO77W-9" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;Diamond Blastx database&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="880" y="450" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jtGZUxk2zRDB6_VaO77W-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jtGZUxk2zRDB6_VaO77W-5">
@@ -629,7 +629,7 @@
             <mxPoint x="880" y="795" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jtGZUxk2zRDB6_VaO77W-24" value="HMM profile (used for hmmscan)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jtGZUxk2zRDB6_VaO77W-24" value="HMM profile (used for hmmscan)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="880" y="770" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jtGZUxk2zRDB6_VaO77W-25" value="Remove length &amp;lt; 600 (seqkit)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -641,13 +641,22 @@
             <mxPoint x="820" y="99.51" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jtGZUxk2zRDB6_VaO77W-27" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(237, 237, 237));&quot;&gt;Diamond Blastx database&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#ff0000, #ededed);" vertex="1" parent="1">
-          <mxGeometry x="855" y="140" width="100" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="jtGZUxk2zRDB6_VaO77W-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="904.6800000000001" y="120" as="sourcePoint" />
             <mxPoint x="905" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtGZUxk2zRDB6_VaO77W-29" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;Diamond Blastx database&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="855" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jtGZUxk2zRDB6_VaO77W-30" value="HMM profile (used for hmmscan)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="90" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jtGZUxk2zRDB6_VaO77W-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0CakbcepppxWFJiGsruR-1" target="jtGZUxk2zRDB6_VaO77W-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="140" as="sourcePoint" />
+            <mxPoint x="1250" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
