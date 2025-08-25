@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.1.1">
   <diagram name="Page-1" id="d5VSCIzbNMDESyZ41HRd">
-    <mxGraphModel dx="738" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="492" dy="1365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -680,8 +680,11 @@
         <mxCell id="3u35J8AjDI09r0O9B5F--8" value="Count" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="-290" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3u35J8AjDI09r0O9B5F--9" value="CoverM&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3u35J8AjDI09r0O9B5F--9" value="Coverage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="980" y="-230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3u35J8AjDI09r0O9B5F--12" value="Mean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-170" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
