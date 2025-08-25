@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.1.1">
   <diagram name="Page-1" id="d5VSCIzbNMDESyZ41HRd">
-    <mxGraphModel dx="561" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="510" dy="1374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -765,11 +765,38 @@
             <mxPoint x="1150" y="-89.63999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="Hydrological Data&amp;nbsp;" link="https://nesdc.org.cn/theme/index?projectId=630ede227e281714dccbd29a" id="3u35J8AjDI09r0O9B5F--35">
+        <UserObject label="River Basin" link="https://nesdc.org.cn/theme/index?projectId=630ede227e281714dccbd29a" id="3u35J8AjDI09r0O9B5F--37">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="1150" y="-110" width="90" height="30" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="3u35J8AjDI09r0O9B5F--38" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="-30" as="sourcePoint" />
+            <mxPoint x="770" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3u35J8AjDI09r0O9B5F--39" value="PMMoV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-50" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3u35J8AjDI09r0O9B5F--40" value="Human data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="-50" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3u35J8AjDI09r0O9B5F--41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3u35J8AjDI09r0O9B5F--39" target="3u35J8AjDI09r0O9B5F--40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="-40" as="sourcePoint" />
+            <mxPoint x="900" y="-39.639999999999986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3u35J8AjDI09r0O9B5F--42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="-30.259999999999998" as="sourcePoint" />
+            <mxPoint x="1030" y="-29.899999999999984" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3u35J8AjDI09r0O9B5F--43" value="correlation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="-50" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
